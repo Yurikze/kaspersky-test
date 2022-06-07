@@ -1,0 +1,12 @@
+.header {
+  background-color: rgba(29, 29, 27, .4);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px 20px 13px 24px;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 10;
+}

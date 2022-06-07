@@ -1,0 +1,5 @@
+.banner__container {
+  flex-basis: 372px;
+  background: url('../../../images/backgroundSmall.png') no-repeat;
+  background-size: cover;
+}

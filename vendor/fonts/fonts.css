@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'KasperskySans';
+  src: url('./KasperskySans-Regular.woff') format('woff');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'KasperskySans';
+  src: url('./KasperskySans-Light.woff') format('woff');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'KasperskySans';
+  src: url('./KasperskySans-Bold.woff') format('woff');
+  font-weight: 900;
+}
