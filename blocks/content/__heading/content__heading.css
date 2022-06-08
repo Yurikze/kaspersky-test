@@ -1,0 +1,6 @@
+.content__heading {
+  margin: 0 0 34px;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: calc(40 / 36);
+}

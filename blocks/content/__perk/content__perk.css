@@ -1,0 +1,18 @@
+.content__perk {
+  font-weight: 300;
+  font-size: 20px;
+  padding-left: 34px;
+  position: relative;
+  line-height: calc(32 / 20);
+  margin-bottom: 20px;
+}
+
+.content__perk:last-of-type {
+  margin-bottom: 0;
+}
+
+.content__perk::before {
+  position: absolute;
+  left: 0;
+  content: url('../../../images/check.svg');
+}

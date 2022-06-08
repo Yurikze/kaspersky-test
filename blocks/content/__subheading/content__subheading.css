@@ -1,0 +1,17 @@
+.content__subheading {
+  margin: 0;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: calc(27 / 24);
+  position: relative;
+  padding-top: 9px;
+  margin-bottom: 26px;
+}
+
+.content__subheading::before {
+  content: '';
+  position: absolute;
+  width: 85px;
+  border: 1px solid #fff;
+  top: 0;
+}
