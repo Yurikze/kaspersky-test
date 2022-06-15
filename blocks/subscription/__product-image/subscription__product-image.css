@@ -1,0 +1,5 @@
+.subscription__product-image {
+  width: 56px;
+  grid-area: icon;
+  margin-top: 9px;
+}

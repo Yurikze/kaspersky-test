@@ -1,0 +1,4 @@
+.subscription__product-score {
+  grid-area: score;
+  display: flex;
+}

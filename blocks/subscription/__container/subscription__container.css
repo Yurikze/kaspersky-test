@@ -1,0 +1,10 @@
+.subscription__container {
+  padding: 20px 16px;
+  background: linear-gradient(
+      317.5deg,
+      rgba(0, 168, 142, 0.4) 66.18%,
+      rgba(126, 255, 51, 0.4) 100%
+    ),
+    #23d1ae;
+  height: 358px;
+}

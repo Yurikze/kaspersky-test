@@ -19,6 +19,7 @@
         </a>
         <select name="currency" id="currency">
           <option value="GBP">GBP</option>
+          <option value="USD">USD</option>
         </select>
       </header>
       <main class="main">
@@ -41,7 +42,81 @@
             </li>
           </ul>
         </div>
+        <div class="subscription">
+          <div class="compatibility subscription__compatibility">
+            <p class="compatibility__text">Compatible with:</p>
+            <ul class="compatibility__devices">
+              <li class="compatibility__device">
+                <img
+                  src="./images/windows_logo.svg"
+                  alt="Windows"
+                  class="compatibility__image"
+                />
+              </li>
+              <li class="compatibility__device">
+                <img
+                  src="./images/macos_logo.svg"
+                  alt="MacOS"
+                  class="compatibility__image"
+                />
+              </li>
+              <li class="compatibility__device">
+                <img
+                  src="./images/android_logo.svg"
+                  alt="Android"
+                  class="compatibility__image"
+                />
+              </li>
+              <li class="compatibility__device">
+                <img
+                  src="./images/ios_logo.svg"
+                  alt="iOS"
+                  class="compatibility__image"
+                />
+              </li>
+            </ul>
+          </div>
+          <p class="subscription__discount">Save 20%</p>
+          <div class="subscription__container subscription__collepsed">
+            <div class="subscription__product">
+              <img
+                src="./images/product_mobile.png"
+                alt="Product"
+                class="subscription__product-image"
+              />
+              <!-- <picture class="subscription__product-image">
+                <source
+                  media="(min-width: 320px)"
+                  srcset="./images/product_mobile.png"
+                  width="56"
+                />
+              </picture> -->
+              <h2 class="subscription__product-title">
+                Kaspersky Internet Security
+              </h2>
+              <div class="subscription__product-score">
+                <ul class="score">
+                  <li class="score__star"></li>
+                  <li class="score__star"></li>
+                  <li class="score__star"></li>
+                  <li class="score__star"></li>
+                  <li class="score__star score__star_half"></li>
+                </ul>
+                <p class="subscription__reviews">(1503 reviews)</p>
+              </div>
+            </div>
+            <div class="subscription__price-container">
+              <span class="subscription__price subscription__price_old"
+                >£34.99</span
+              ><span class="subscription__price">£35.99</span>
+            </div>
+            <div class="subscription__actions">
+              <button class="subscription__order">Buy Now</button>
+            </div>
+          </div>
+        </div>
       </main>
     </div>
+    <script type="module" src="./pages/index.js"></script>
   </body>
 </html>

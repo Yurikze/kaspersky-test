@@ -1,0 +1,9 @@
+.subscription__product {
+  display: grid;
+  grid-template-areas:
+    'icon title'
+    'icon score';
+  gap: 8px 23px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgba(255, 255, 255, .2);
+}

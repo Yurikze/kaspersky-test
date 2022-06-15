@@ -1,0 +1,9 @@
+.subscription__order {
+  border: none;
+  outline: none;
+  background-color: var(--energyRed);
+  padding: 20px;
+  border-radius: 3px;
+  color: #fff;
+  text-align: center;
+}

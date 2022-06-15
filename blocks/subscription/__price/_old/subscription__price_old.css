@@ -1,0 +1,6 @@
+.subscription__price_old {
+  text-decoration: line-through;
+  font-size: 24px;
+  opacity: .6;
+  font-weight: 300;
+}

@@ -1,0 +1,8 @@
+.subscription__discount {
+  background-color: var(--energyPurple);
+  max-width: 179px;
+  padding: 10px 6px;
+  text-align: center;
+  font-weight: 900;
+  margin: 0;
+}

@@ -1,0 +1,10 @@
+.score__star {
+  background: url('../../../images/Star.svg');
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.score__star:last-of-type {
+  margin-right: 0;
+}

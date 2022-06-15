@@ -1,0 +1,11 @@
+.subscription__product-title {
+  grid-area: title;
+  margin: 0;
+  color: var(--primaryBlack);
+  font-size: 21px;
+  line-height: calc(24 / 21);
+}
+
+.subscription__collepsed .subscription__product-title {
+  font-size: 10px;
+}
